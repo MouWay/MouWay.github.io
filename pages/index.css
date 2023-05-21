@@ -23,6 +23,7 @@
 /* Nav */
 @import '../blocks/nav/nav.css';
 @import '../blocks/nav/__container/nav__container.css';
+@import '../blocks/nav/__text/nav__text.css';
 /* Logo */
 @import '../blocks/logo/logo.css';
 @import '../blocks/logo/__image/logo__image.css';
@@ -43,12 +44,12 @@
 @import '../blocks/about/about.css';
 @import '../blocks/about/__container/about__container.css';
 @import '../blocks/about/__title/about__title.css';
-/* Otium */
-@import '../blocks/otium/otium.css';
-@import '../blocks/otium/__title/otium__title.css';
-@import '../blocks/otium/__container/otium__container.css';
-@import '../blocks/otium/__text/otium__text.css';
-@import '../blocks/otium/__image/otium__image.css';
+/* Osu */
+@import '../blocks/osu/osu.css';
+@import '../blocks/osu/__title/osu__title.css';
+@import '../blocks/osu/__container/osu__container.css';
+@import '../blocks/osu/__text/osu__text.css';
+@import '../blocks/osu/__image/osu__image.css';
 /*Relaunch*/
 @import '../blocks/relaunch/relaunch.css';
 @import '../blocks/relaunch/__image/relaunch__image.css';
