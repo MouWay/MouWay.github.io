@@ -3,3 +3,11 @@
   height: 344px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 480px) {
+  .osu__image{
+    width: 400px;
+    height: 225px;
+    object-fit: cover;
+  }
+}
