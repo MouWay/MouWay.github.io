@@ -1,0 +1,11 @@
+.header__maps{
+    padding-top: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #e993c9;
+    background-size: cover;
+
+  }
+  
