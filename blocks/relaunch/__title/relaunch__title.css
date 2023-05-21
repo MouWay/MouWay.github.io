@@ -5,3 +5,9 @@
   text-transform: uppercase;   
   color: var(--black);
 }
+
+@media screen and (max-width: 1024px){
+  .relaunch__title{
+    margin: 0 0 10px 0;
+  }
+}

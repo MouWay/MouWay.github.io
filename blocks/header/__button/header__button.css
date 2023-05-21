@@ -2,8 +2,7 @@
     margin: 350px 0 0 0;
 
     max-width: 260px;
-    min-height: 65px;
-    max-height: 65px;
+    height: 65px;
 
     display: grid;
     justify-content: center;

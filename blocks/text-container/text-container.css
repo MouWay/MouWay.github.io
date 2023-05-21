@@ -3,3 +3,10 @@
   max-width: 580px;
   min-height: 226px;
 }
+
+@media screen and (max-width: 1024px) {
+  .text-container{
+    min-height: 180px;
+    margin-bottom: 10px;
+  }
+}

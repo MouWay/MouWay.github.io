@@ -1,6 +1,10 @@
 .osu {
-  width: 100%;
-  max-width: 580px;
-  min-width: 580px;
+  width: 580px;
   margin: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .osu {
+    width: 400px;
+  }
 }

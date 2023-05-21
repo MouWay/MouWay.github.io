@@ -9,3 +9,9 @@
   text-shadow: 1px 0 #FD7EB7, -1px 0 #FD7EB7, 0 1px #FD7EB7, 0 -1px #FD7EB7,
   1px 1px #FD7EB7, -1px -1px #FD7EB7, 1px -1px #FD7EB7, -1px 1px #FD7EB7;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__link{
+    font-size: 20px;
+  }
+}

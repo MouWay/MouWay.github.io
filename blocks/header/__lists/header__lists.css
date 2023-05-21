@@ -1,9 +1,15 @@
 .header__lists{
   padding: 0;
   margin: 0 0 0 135px;
-  max-width: 320px;
-  min-width: 320px;
+  width: 320px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .header__lists{
+    margin: 0 0 0 35px;
+    width: 240px;
+  }
 }
