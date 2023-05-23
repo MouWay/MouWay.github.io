@@ -21,10 +21,10 @@
             </a>
             <ul class="lists header__lists">
               <li class="list">
-                <p><a class="link header__link" href="#">main</a></p>
+                <p><a class="link header__link" href="index.html">main</a></p>
               </li>
               <li class="list">
-                <a class="link header__link" href="#">maps</a>
+                <a class="link header__link" href="maps.shtml">maps</a>
               </li>
               <li class="list">
                 <a class="link header__link" href="#">rating</a>
@@ -33,7 +33,6 @@
                 <a class="link header__link" href="#">help</a>
               </li>
             </ul>
-            <p class="nav__text">SEGA</p>
           </div> 
         </nav>
       </div>
@@ -55,8 +54,19 @@
           </div>
         </div>
       </div>
-    </main>
+      <div class="container maps__container">
 
+        <div class="maps__map">
+          <img>
+          <div class="maps__map-container">   
+              <p class="text maps__map-title">Name</p>
+              <p class="text maps__map-description">Description</p>
+              <p class="text maps__map-rating">Rating</p>
+          </div>
+        </div>
+
+      </div>
+    </main>
 </body>
 
 </html>

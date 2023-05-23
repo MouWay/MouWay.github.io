@@ -1,0 +1,6 @@
+.maps__container{
+    max-width: calc(1120px + 40px * 2);
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 120px 120px 120px;
+  }

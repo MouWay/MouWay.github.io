@@ -45,6 +45,12 @@
 /* Maps */
 @import '../blocks/maps/maps.css';
 @import '../blocks/maps/__container/maps__container.css';
+@import '../blocks/maps/__table/maps__table.css';
+@import '../blocks/maps/__map/maps__map.css';
+@import '../blocks/maps/__map/maps__map-title.css';
+@import '../blocks/maps/__map/maps__map-desription.css';
+@import '../blocks/maps/__map/maps__map-rating.css';
+@import '../blocks/maps/__map/maps__map-container.css';
 /* About */
 @import '../blocks/about/about.css';
 @import '../blocks/about/__container/about__container.css';

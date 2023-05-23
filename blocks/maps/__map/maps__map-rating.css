@@ -1,0 +1,9 @@
+.maps__map-rating{
+    background-color: green;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+}

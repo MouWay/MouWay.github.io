@@ -1,0 +1,7 @@
+.maps__map{
+    display: flex;
+    background-color: grey;
+    margin: 5px;
+    border-radius: 10px;
+    align-items: center;
+}
