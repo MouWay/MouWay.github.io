@@ -3,8 +3,27 @@
   height: 30%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #680d45;
+  border-radius: 20px 20px 0 0;
+  background-color: #ff3d88;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .header__library{
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header__library{
+    width: 520px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__library{
+    width: 400px;
+  }
 }
   

@@ -1,9 +1,8 @@
-.maps__map-rating{
-    background-color: green;
-    width: 120px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 20px;
+.maps__map-rating {
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.maps__map-rating::after{
+    content: "☆";
 }

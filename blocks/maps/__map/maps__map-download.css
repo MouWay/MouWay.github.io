@@ -1,0 +1,13 @@
+.maps__map-download {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ff5f9c;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.maps__map-download:hover {
+    background-color: #fa317e;
+}

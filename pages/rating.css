@@ -42,17 +42,6 @@
 /* Main */
 @import '../blocks/main/main.css';
 @import '../blocks/main/__container/main__container.css';
-/* Maps */
-@import '../blocks/maps/maps.css';
-@import '../blocks/maps/__container/maps__container.css';
-@import '../blocks/maps/__table/maps__table.css';
-@import '../blocks/maps/__map/maps__map.css';
-@import '../blocks/maps/__map/maps__map-title.css';
-@import '../blocks/maps/__map/maps__map-desription.css';
-@import '../blocks/maps/__map/maps__map-rating.css';
-@import '../blocks/maps/__map/maps__map-container.css';
-@import '../blocks/maps/__map/maps__map-download.css';
-@import '../blocks/maps/__wrap/maps__wrap.css';
 /* About */
 @import '../blocks/about/about.css';
 @import '../blocks/about/__container/about__container.css';
@@ -69,3 +58,11 @@
 @import '../blocks/footer/__author/footer__author.css';
 @import '../blocks/footer/__copyright/footer__copyright.css';
 @import '../blocks/library/__container/library__container.css';
+/* Rating */
+@import '../blocks/rating/__avatar/rating__avatar.css';
+@import '../blocks/rating/__table/rating__table.css';
+@import '../blocks/rating/__title/rating__title.css';
+@import '../blocks/rating/__cell/rating__cell.css';
+@import '../blocks/rating/__header/rating__header.css';
+@import '../blocks/rating/__nickname/rating__nickname.css';
+@import '../blocks/rating/__row/rating__row.css';

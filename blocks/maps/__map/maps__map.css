@@ -1,7 +1,32 @@
-.maps__map{
-    display: flex;
-    background-color: grey;
-    margin: 5px;
+.maps__map {
+    background-image: url('../../../images/maps/map1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.maps__map:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.maps__map img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+    
 }

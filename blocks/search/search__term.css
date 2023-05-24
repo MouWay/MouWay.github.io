@@ -1,10 +1,10 @@
 .search__term {
     width: 100%;
-    border: 3px solid #00B4CC;
+    border: 3px solid #ff5f9c;
     border-right: none;
     padding: 5px;
     height: 20px;
-    border-radius: 5px 0 0 5px;
+    border-radius: 10px 0 0 10px;
     outline: none;
     color: #9DBFAF;
   }

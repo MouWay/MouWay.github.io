@@ -1,3 +1,5 @@
-.maps__map-title{
+.maps__map-title {
     font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }

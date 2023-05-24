@@ -1,0 +1,7 @@
+.rating__header {
+    font-weight: bold;
+    background-color: #2F3136;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }

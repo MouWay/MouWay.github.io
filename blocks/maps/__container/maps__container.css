@@ -1,6 +1,31 @@
-.maps__container{
-    max-width: calc(1120px + 40px * 2);
-    display: grid;
-    grid-template-columns: 600px 600px;
-    grid-template-rows: 120px 120px 120px;
+.maps__container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 440px);
+  grid-template-rows: repeat(4, 160px);
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .maps__container{
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(4, 140px);
+    grid-gap: 10px;
   }
+}
+
+@media screen and (max-width: 720px) {
+  .maps__container{
+    grid-template-columns: repeat(1, 440px);
+    grid-template-rows: repeat(8, 160px);
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .maps__container{
+    grid-template-columns: repeat(1, 360px);
+    grid-template-rows: repeat(8, 130px);
+    grid-gap: 10px;
+  }
+}

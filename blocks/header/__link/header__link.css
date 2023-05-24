@@ -1,17 +1,15 @@
 .header__link {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--white);
   text-shadow: 1px 0 #FD7EB7, -1px 0 #FD7EB7, 0 1px #FD7EB7, 0 -1px #FD7EB7,
-  1px 1px #FD7EB7, -1px -1px #FD7EB7, 1px -1px #FD7EB7, -1px 1px #FD7EB7;
+    1px 1px #FD7EB7, -1px -1px #FD7EB7, 1px -1px #FD7EB7, -1px 1px #FD7EB7;
+  transition: transform 0.3s ease;
 }
 
-@media screen and (max-width: 1024px) {
-  .header__link{
-    font-size: 20px;
-  }
+.header__link:hover {
+  transform: scale(2);
 }

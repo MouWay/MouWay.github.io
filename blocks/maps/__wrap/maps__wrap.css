@@ -1,0 +1,18 @@
+.maps__wrap{
+    width: 1200px;
+    background: linear-gradient(0deg, rgba(255,222,233,1) 0%, rgba(246,191,220,1) 80%, rgba(233,147,201,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .maps__wrap{
+      width: 900px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .maps__wrap{
+      width: 520px;
+    }
+}

@@ -1,0 +1,8 @@
+.rating__row {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #36393F;
+    background-color: #202225;
+    color: #FFFFFF;
+  }

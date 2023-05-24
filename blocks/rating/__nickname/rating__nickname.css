@@ -1,0 +1,9 @@
+.rating__nickname {
+    color: #FF69B4;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .rating__nickname:hover {
+    color: #FFC0CB;
+  }
