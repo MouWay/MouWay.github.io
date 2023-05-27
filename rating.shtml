@@ -12,55 +12,59 @@
 </head>
 
 <body class="page">
-  <header class="header__maps">
-    <div class="container header__container">
-      <nav class="nav">
-        <div class="nav__container">
-          <a class="link logo" href="#">
-            <img class="logo__image" src="./images/header/logo.png">
-          </a>
-          <ul class="lists header__lists">
-            <li class="list">
-              <a class="link header__link" href="index.html">main</a>
-            </li>
-            <li class="list">
-              <a class="link header__link" href="maps.shtml">maps</a>
-            </li>
-            <li class="list">
-              <a class="link header__link" href="rating.shtml">rating</a>
-            </li>
-            <li class="list">
-              <a class="link header__link" href="#">help</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
+  <!--#include file="header.html"-->
 
   <main class="rating">
-    <div class="rating__container">
+    <div class="container rating__container">
       <h2 class="rating__title">Rating</h2>
       <div class="rating__table">
-        <div class="rating__row rating__header">
-          <div class="rating__cell">Место</div>
-          <div class="rating__cell">Аватар</div>
-          <div class="rating__cell">Никнейм</div>
-          <div class="rating__cell">Рейтинг</div>
+        <div class="rating__header">
+          <div class="rating__header-place">Место</div>
+          <div class="rating__header-nickname">Никнейм</div>
+          <div class="rating__header-points">Рейтинг</div>
         </div>
         <div class="rating__row">
-          <div class="rating__cell">1</div>
-          <div class="rating__avatar"><img src="avatar1.jpg" alt="Аватар" class="rating__avatar"></div>
-          <div class="rating__nickname">Игрок 1</div>
-          <div class="rating__cell">5000</div>
+          <div class="rating__avatar"><img src="images/avatar/avatar1.png" class="rating__avatar"></div>
+          <div class="rating__place">1</div>
+          <div class="rating__nickname">voiz94</div>
+          <div class="rating__points">192273.35</div>
         </div>
         <div class="rating__row">
-          <div class="rating__cell">2</div>
-          <div class="rating__avatar"><img src="avatar2.jpg" alt="Аватар" class="rating__avatar"></div>
-          <div class="rating__nickname">Игрок 2</div>
-          <div class="rating__cell">4500</div>
+          <div class="rating__avatar"><img src="images/avatar/avatar2.png" class="rating__avatar"></div>
+          <div class="rating__place">2</div>
+          <div class="rating__nickname">lidraw</div>
+          <div class="rating__points">188934.85</div>
         </div>
-        <!-- Добавьте другие строки рейтинга по аналогии -->
+        <div class="rating__row">
+          <div class="rating__avatar"><img src="images/avatar/avatar2.png" class="rating__avatar"></div>
+          <div class="rating__place">3</div>
+          <div class="rating__nickname">lidraw_twink</div>
+          <div class="rating__points">188934.84</div>
+        </div>
+        <div class="rating__row">
+          <div class="rating__avatar"><img src="images/avatar/avatar2.png" class="rating__avatar"></div>
+          <div class="rating__place">4</div>
+          <div class="rating__nickname">n1ghtwell</div>
+          <div class="rating__points">134259.58</div>
+        </div>
+        <div class="rating__row">
+          <div class="rating__avatar"><img src="images/avatar/avatar2.png" class="rating__avatar"></div>
+          <div class="rating__place">5</div>
+          <div class="rating__nickname">no1r</div>
+          <div class="rating__points">126395.11</div>
+        </div>
+        <div class="rating__row">
+          <div class="rating__avatar"><img src="images/avatar/avatar2.png" class="rating__avatar"></div>
+          <div class="rating__place">6</div>
+          <div class="rating__nickname">maimuni</div>
+          <div class="rating__points">114946.62</div>
+        </div>
+        <div class="rating__row">
+          <div class="rating__avatar"><img src="images/avatar/avatar2.png" class="rating__avatar"></div>
+          <div class="rating__place">7</div>
+          <div class="rating__nickname">yukatzz</div>
+          <div class="rating__points">98376.83</div>
+        </div>
       </div>
     </div>
   </main>

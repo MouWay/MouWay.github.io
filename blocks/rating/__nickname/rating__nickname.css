@@ -1,9 +1,13 @@
 .rating__nickname {
+    width: 500px;
+    text-align: center;
+    font-size: 24px;
     color: #FF69B4;
     cursor: pointer;
-    transition: color 0.3s ease;
-  }
+    transition: font-size 0.3s ease;
+}
   
-  .rating__nickname:hover {
-    color: #FFC0CB;
-  }
+.rating__nickname:hover {
+  font-size: 30px;
+}
+

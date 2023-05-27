@@ -35,23 +35,11 @@
 @import '../blocks/list/list.css';
 /* Container */
 @import '../blocks/container/container.css';
-@import '../blocks/about/about.css';
-@import '../blocks/about/__title/about__title.css';
 /* Link */
 @import '../blocks/link/link.css';
 /* Main */
 @import '../blocks/main/main.css';
 @import '../blocks/main/__container/main__container.css';
-/* About */
-@import '../blocks/about/about.css';
-@import '../blocks/about/__container/about__container.css';
-@import '../blocks/about/__title/about__title.css';
-/* Search */
-@import '../blocks/search/wrap.css';
-@import '../blocks/search/search.css';
-@import '../blocks/search/search__term.css';
-@import '../blocks/search/__container/search__container.css';
-@import '../blocks/search/__button/search__button.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/__container/footer__container.css';
@@ -59,10 +47,16 @@
 @import '../blocks/footer/__copyright/footer__copyright.css';
 @import '../blocks/library/__container/library__container.css';
 /* Rating */
+@import '../blocks/rating/rating.css';
 @import '../blocks/rating/__avatar/rating__avatar.css';
 @import '../blocks/rating/__table/rating__table.css';
 @import '../blocks/rating/__title/rating__title.css';
-@import '../blocks/rating/__cell/rating__cell.css';
+@import '../blocks/rating/__place/rating__place.css';
 @import '../blocks/rating/__header/rating__header.css';
 @import '../blocks/rating/__nickname/rating__nickname.css';
 @import '../blocks/rating/__row/rating__row.css';
+@import '../blocks/rating/__container/rating__container.css';
+@import '../blocks/rating/__points/rating__points.css';
+@import '../blocks/rating/__header/rating__header-nickname.css';
+@import '../blocks/rating/__header/rating__header-place.css';
+@import '../blocks/rating/__header/rating__header-points.css'
