@@ -42,25 +42,25 @@
           <div class="rating__points">188934.84</div>
         </div>
         <div class="rating__row">
-          <div class="rating__avatar"><img src="images/avatar/avatar2.png" class="rating__avatar"></div>
+          <div class="rating__avatar"><img src="images/avatar/avatar4.png" class="rating__avatar"></div>
           <div class="rating__place">4</div>
           <div class="rating__nickname">n1ghtwell</div>
           <div class="rating__points">134259.58</div>
         </div>
         <div class="rating__row">
-          <div class="rating__avatar"><img src="images/avatar/avatar2.png" class="rating__avatar"></div>
+          <div class="rating__avatar"><img src="images/avatar/avatar5.png" class="rating__avatar"></div>
           <div class="rating__place">5</div>
           <div class="rating__nickname">no1r</div>
           <div class="rating__points">126395.11</div>
         </div>
         <div class="rating__row">
-          <div class="rating__avatar"><img src="images/avatar/avatar2.png" class="rating__avatar"></div>
+          <div class="rating__avatar"><img src="images/avatar/avatar6.png" class="rating__avatar"></div>
           <div class="rating__place">6</div>
           <div class="rating__nickname">maimuni</div>
           <div class="rating__points">114946.62</div>
         </div>
         <div class="rating__row">
-          <div class="rating__avatar"><img src="images/avatar/avatar2.png" class="rating__avatar"></div>
+          <div class="rating__avatar"><img src="images/avatar/avatar7.png" class="rating__avatar"></div>
           <div class="rating__place">7</div>
           <div class="rating__nickname">yukatzz</div>
           <div class="rating__points">98376.83</div>
@@ -68,6 +68,7 @@
       </div>
     </div>
   </main>
+  <!--#include file="footer.shtml"-->
 </body>
 
 </html>

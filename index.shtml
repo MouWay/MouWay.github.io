@@ -21,7 +21,7 @@
           </a>
           <ul class="lists header__lists">
             <li class="list">
-              <p><a class="link header__link" href="index.html">main</a></p>
+              <p><a class="link header__link" href="index.shtml">main</a></p>
             </li>
             <li class="list">
               <a class="link header__link" href="maps.shtml">maps</a>
@@ -30,7 +30,7 @@
               <a class="link header__link" href="rating.shtml">rating</a>
             </li>
             <li class="list">
-              <a class="link header__link" href="#">help</a>
+              <a class="link header__link" href="help.shtml">help</a>
             </li>
           </ul>
         </div>
@@ -38,7 +38,7 @@
       <div class="header__container-desc">
         <p class="text header__text">Rhythm is just a *click* away!</p>
         <h1 class="title header__title">welcome | osu!</h1>
-        <a class="link header__button">download osu!</a>
+        <a href="https://m1.ppy.sh/r/osu!install.exe" class="link header__button">download osu!</a>
       </div>
     </div>
   </header>
@@ -77,12 +77,7 @@
       </section>
     </div>
   </main>
-  <footer class="footer">
-    <div class="container footer__container">
-      <p class="footer__copyright">ppy powered 2007-2022</p>
-      <p class="footer__author">alinka</p>
-    </div>
-  </footer>
+  <!--#include file="footer.shtml"-->
 </body>
 
 </html>

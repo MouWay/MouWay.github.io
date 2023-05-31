@@ -1,0 +1,7 @@
+<!--#config timefmt="%y"-->
+<footer class="footer">
+    <div class="container footer__container">
+      <p class="footer__copyright">ppy powered 2007-20<!--#echo var="DATE_LOCAl"--></p>
+      <p class="footer__author">alinka</p>
+    </div>
+</footer>

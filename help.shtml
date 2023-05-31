@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OSU - топ!">
+  <meta name="keywords" content="OSU!">
+  <link rel="stylesheet" href="./pages/help.css">
+  <title>Rating</title>
+</head>
+
+<body class="page">
+  <!--#include file="header.html"-->
+  <main class="help">
+    <div class="container help__container">
+      <div class="help__block">
+          <input class="help__block-button" id="b1" type="checkbox">
+          <label for="b1" class="help__block-title">
+            How to start?
+          </label>
+          <div class="help__block-content">
+            1. <a class="link" href="https://m1.ppy.sh/r/osu!install.exe">Download</a> game<br>
+            2. Download some maps from <a class="link" href="maps.shtml">here</a><br>
+            3. Enjoy!
+          </div>
+      </div>
+      <div class="help__block">
+        <input class="help__block-button" id="b2" type="checkbox">
+        <label for="b2" class="help__block-title">
+          How to play?
+        </label>
+        <div class="help__block-content">Play like <a class="link" href="https://www.youtube.com/watch?v=IOwU324V9oo&ab_channel=WhiteCatosu%21">this</a></div>
+      </div>
+      <div class="help__block">
+        <input class="help__block-button" id="b3" type="checkbox">
+        <label for="b3" class="help__block-title">
+          Why do people communicate with dots, spaces and commas in Russian chat?
+        </label>
+        <div class="help__block-content">Because for some reason you turned on the "Filter foreign characters" setting, which cuts out everything from the chat that does not fall into the ASCII range.</div>
+      </div>
+      <div class="help__block">
+        <input class="help__block-button" id="b4" type="checkbox">
+        <label for="b4" class="help__block-title">
+          Why can't I write to the chat?
+        </label>
+        <div class="help__block-content">You must have been silenced for bad behavior. Please read the rules so this doesn't happen again.</div>
+      </div>
+      <div class="help__block">
+        <input class="help__block-button" id="b5" type="checkbox">
+        <label for="b5" class="help__block-title">
+          How can I see my friends list?
+        </label>
+        <div class="help__block-content">Press F9. You will see a list of all players who are currently online. By clicking on "show only friends", oddly enough, you will only be shown your online friends.</div>
+      </div>
+    </div>
+  </main>
+  <!--#include file="footer.shtml"-->
+</body>
+
+</html>

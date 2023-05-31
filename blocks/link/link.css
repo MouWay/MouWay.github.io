@@ -1,3 +1,8 @@
 .link{
   text-decoration: none;
+  color: #e993c9;
+}
+
+.link:visited{
+  color: #e993c9;
 }
