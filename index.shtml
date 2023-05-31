@@ -21,7 +21,7 @@
           </a>
           <ul class="lists header__lists">
             <li class="list">
-              <p><a class="link header__link" href="index.shtml">main</a></p>
+              <p><a class="header__link link" href="index.shtml">main</a></p>
             </li>
             <li class="list">
               <a class="link header__link" href="maps.shtml">maps</a>

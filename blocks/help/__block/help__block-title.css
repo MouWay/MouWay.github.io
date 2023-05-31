@@ -18,3 +18,7 @@
 .help__block-title:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+.help__block-button:checked ~ .help__block-title{
+    background-color: #e777be;
+}
